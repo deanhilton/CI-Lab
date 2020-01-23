@@ -42,6 +42,6 @@ test('Check that the difference between 1 and 10 is 9', () => {
 });
 
 test('Check that the difference between 77 and 3 is 74', () => {
-        expect(product(77, 3)).toBe(74);
+        expect(difference(77, 3)).toBe(74);
 });
 
