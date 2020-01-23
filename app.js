@@ -13,8 +13,12 @@ function product(a, b) {
 
 //return the "difference" of 2 numbers
 function difference(a, b) {
-
+  if (a < b) {
+  return b - a;
+  }
+  else {
   return a - b;
+  }
 }
 
 
